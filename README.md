@@ -233,7 +233,7 @@ npm run json-server
 <br>
 
 Query customer by id 
-```json
+```
 {
   customer(id: "1") {
     name,
@@ -245,7 +245,7 @@ Query customer by id
 <br>
 
 Query all customers
-```json
+```
 {
   customers {
     id,
@@ -259,7 +259,7 @@ Query all customers
 <br>
 
 Update customer by id
-```json
+```
 mutation {
   editCustomer(id: "3", age: 40) {
     id,
