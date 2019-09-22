@@ -272,7 +272,7 @@ mutation {
 <br >
 
 Delete customer by id
-```json
+```
 mutation {
   deleteCustomer(id: "4") {id}
 }
